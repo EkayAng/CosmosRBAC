@@ -1,3 +1,5 @@
+#!/bin/bash
+
 az account set --subscription $1
 MyAccount=$2
 MyResourceGroup=$3

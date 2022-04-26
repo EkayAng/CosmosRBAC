@@ -1,3 +1,5 @@
+#!/bin/bash
+
 az account set --subscription $1
 
 az cosmosdb sql role assignment create --account-name $2 \
